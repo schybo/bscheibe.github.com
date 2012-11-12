@@ -15,7 +15,7 @@ body
 #contact
 {
 	position: absolute;
-	top: 275px;
+	top: 325px;
 	left: 605px;
 	color: white;
 	font-family: Trebuchet;
@@ -48,7 +48,7 @@ a:active
 #blog
 {
 	position: absolute;
-	top: 275px;
+	top: 325px;
 	left: 760px;
 	color: white;
 	font-family: Trebuchet;
@@ -58,7 +58,7 @@ a:active
 {
 	position: absolute;
 	font-family: Trebuchet;
-	top: 100px;
+	top: 150px;
 	left: 575px;
 	color: white;
 	font-size: 6em;
