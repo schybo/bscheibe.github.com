@@ -1,8 +1,65 @@
 h1 
 {
-	color: green;
+	color:red;
 }
 body
 {
 	background-image: url(background.tif);
+}
+
+.center
+{
+	text-align: right;
+}
+
+#contact
+{
+	position: absolute;
+	top: 275px;
+	left: 605px;
+	color: white;
+	font-family: Trebuchet;
+}
+
+a:link
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited 
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: white;
+	text-decoration: none;
+}
+
+#blog
+{
+	position: absolute;
+	top: 275px;
+	left: 760px;
+	color: white;
+	font-family: Trebuchet;
+}
+
+#front-title
+{
+	position: absolute;
+	font-family: Trebuchet;
+	top: 100px;
+	left: 575px;
+	color: white;
+	font-size: 6em;
 }
