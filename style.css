@@ -65,6 +65,37 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0 10px 0 #444;
 }
 
+#contact-title {
+	position: fixed;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	top: 130px;
+	left: 440px;
+	color: #5F9EA0;
+	font-size: 3em;
+	letter-spacing: 2px;
+}
+
+#home-contact {
+	position: fixed;
+	top: 75px;
+	left: 440px;
+	color: #fff;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+#p-contact {
+	position: fixed;
+	top: 220px;
+	left: 440px;
+	color: #5F9EA0;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+}
+
 #containerbox {
 	-moz-border-radius: 15px;
 	moz-box-shadow: 5px 5px 5px #87CEEB;
@@ -84,6 +115,28 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.8;
 	top: 165px;
 	left: 520px;
+	z-index: 1;
+}
+
+#contactbox {
+	-moz-border-radius: 15px;
+	moz-box-shadow: 5px 5px 5px #87CEEB;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	background-color: #ffa500;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #5F9EA0;
+	color: #222;
+	font-size: 1em;
+	line-height: 3em;
+	height: 400px;
+	width: 650px;
+	padding: 20px;
+	position: relative;
+	text-shadow: 0 1px 0 #fff;
+	opacity: 0.8;
+	top: 75px;
+	left: 400px;
 	z-index: 1;
 }
 
