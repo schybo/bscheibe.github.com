@@ -1,65 +1,94 @@
-h1 
-{
-	color:red;
-}
-body
-{
-	background-image: url(background.tif);
+/* Main CSS Page */
+
+@import url(http://fonts.googleapis.com/css?family=Galdeano);
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
-.center
-{
-	text-align: right;
+body {
+	background-size: cover;
+	-moz-background-size: cover;
+  	-webkit-background-size: cover;
+  	-o-background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	background-color: #222;
+	background-image: url(background.png);
 }
 
-#contact
-{
-	position: absolute;
-	top: 325px;
+a:link, a:visited, a:active {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+a:hover {
+	color: #00BFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+	position: fixed;
+	top: 295px;
 	left: 605px;
-	color: white;
-	font-family: Trebuchet;
+	color: #fff;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 2em;
+	text-shadow: 0 7px 0 #444;
 }
 
-a:link
-{
-	color: white;
-	text-decoration: none;
+#blog {
+	position: fixed;
+	top: 295px;
+	left: 795px;
+	color: #fff;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 2em;
+	text-shadow: 0 7px 0 #444;
 }
 
-a:visited 
-{
-	color: white;
-	text-decoration: none;
-}
-
-a:hover
-{
-	color: white;
-	text-decoration: none;
-}
-
-a:active
-{
-	color: white;
-	text-decoration: none;
-}
-
-#blog
-{
-	position: absolute;
-	top: 325px;
-	left: 760px;
-	color: white;
-	font-family: Trebuchet;
-}
-
-#front-title
-{
-	position: absolute;
-	font-family: Trebuchet;
-	top: 150px;
+#front-title {
+	position: fixed;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	top: 165px;
 	left: 575px;
-	color: white;
+	color: #fff;
 	font-size: 6em;
+	letter-spacing: 2px;
+	text-shadow: 0 10px 0 #444;
+}
+
+#containerbox {
+	-moz-border-radius: 15px;
+	moz-box-shadow: 5px 5px 5px #87CEEB;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	background-color: #ffa500;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #5F9EA0;
+	color: #222;
+	font-size: 1em;
+	line-height: 3em;
+	height: 200px;
+	width: 400px;
+	padding: 20px;
+	position: relative;
+	text-shadow: 0 1px 0 #fff;
+	opacity: 0.8;
+	top: 165px;
+	left: 520px;
+	z-index: 1;
+}
+
+#inner {
+	width: 690px;
+	margin: 50px auto;
+	position: relative;
 }
