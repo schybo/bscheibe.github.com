@@ -16,6 +16,7 @@ body {
   	background-attachment: fixed;
   	background-color: #222;
 	background-image: url(background.png);
+	padding-bottom: 200px;
 }
 
 a:link, a:visited, a:active {
@@ -75,6 +76,16 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 }
 
+#blog-title {
+	position: absolute;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	top: 150px;
+	left: 40px;
+	color: #fff;
+	font-size: 3em;
+	letter-spacing: 2px;
+}
+
 #home-contact {
 	position: fixed;
 	top: 75px;
@@ -82,6 +93,16 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+#home-blog {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	color: #fff;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	font-size: 2em;
 	font-weight: 800;
 }
@@ -96,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1em;
 }
 
-.homebox {
+#homebox-contact {
 	-moz-border-radius: 15px;
 	moz-box-shadow: 5px 5px 5px #444;
 	-webkit-border-radius: 15px;
@@ -115,6 +136,29 @@ h1, h2, h3, h4, h5, h6 {
 	top: 97px;
 	opacity: 1;
 	left: 420px;
+	z-index: 1;
+}
+
+
+#homebox-blog {
+	-moz-border-radius: 15px;
+	moz-box-shadow: 5px 5px 5px #444;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 5px 5px 5px #444;
+	background-color: #000;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #444;
+	color: #222;
+	font-size: 1em;
+	line-height: 3em;
+	height: 40px;
+	width: 240px;
+	padding: 20px;
+	position: absolute;
+	text-shadow: 0 1px 0 #fff;
+	top: 40px;
+	left: 30px;
+	opacity: 1;
 	z-index: 1;
 }
 
@@ -163,8 +207,53 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 1;
 }
 
+#blogbox {
+	-moz-border-radius: 15px;
+	moz-box-shadow: 5px 5px 5px #87CEEB;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	background-color: #ffa500;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #5F9EA0;
+	color: #222;
+	font-size: 1em;
+	line-height: 3em;
+	height: 1010px;
+	width: 660px;
+	/* figure out padding */
+	padding: 20px;
+	padding-right: 20px;
+	padding-left: 20px ;
+	position: relative;
+	text-shadow: 0 1px 0 #fff;
+	opacity: 0.8;
+	top: 65px;
+	left: 390px;
+	z-index: 1;
+}
+
 #inner {
 	width: 690px;
 	margin: 50px auto;
 	position: relative;
+}
+
+.datestyle {
+	position: absolute;
+	top: 230px;
+	left: 40px;
+	color: #fff;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.blogstyle {
+	position: absolute;
+	top: 340px;
+	left: 40px;
+	color: #fff;
+	font-family:  "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 800;
 }
