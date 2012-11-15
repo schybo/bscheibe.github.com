@@ -1,4 +1,5 @@
 /* Main CSS Page */
+/* Get Favicon Working and make a white background plus black text for blog */
 
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 
@@ -33,10 +34,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 }
 
-#contact {
-	position: fixed;
-	top: 295px;
-	left: 605px;
+#archive {
+	position: absolute;
+	top: 115px;
+	left: 145px;
 	color: #fff;
 	font-family:  "Galdeano","Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
@@ -45,67 +46,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #blog {
-	position: fixed;
-	top: 295px;
-	left: 795px;
+	position: absolute;
+	top: 115px;
+	left: 50px;
 	color: #fff;
-	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	font-family:  "Galdeano","Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 2em;
+	text-shadow: 0 7px 0 #444;
+}
+
+#contact {
+	position: absolute;
+	top: 115px;
+	left: 290px;
+	color: #fff;
+	font-family:  "Galdeano","Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 	font-size: 2em;
 	text-shadow: 0 7px 0 #444;
 }
 
 #front-title {
-	position: fixed;
+	position: absolute;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
-	top: 165px;
-	left: 575px;
+	top: 50%;
+	left: 50%;
+	margin: -60px 0 0 -140px;
 	color: #fff;
 	font-size: 6em;
 	letter-spacing: 2px;
 	text-shadow: 0 10px 0 #444;
-}
-
-#blog-title {
-	position: absolute;
-	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
-	top: 150px;
-	left: 40px;
-	color: #fff;
-	font-size: 3em;
-	letter-spacing: 2px;
-}
-
-#home-blog {
-	position: absolute;
-	top: 0px;
-	left: 20px;
-	color: #fff;
-	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	font-weight: 800;
-}
-
-#homebox-blog {
-	-moz-border-radius: 15px;
-	moz-box-shadow: 5px 5px 5px #444;
-	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 5px 5px 5px #444;
-	background-color: #000;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px #444;
-	color: #222;
-	font-size: 1em;
-	line-height: 3em;
-	height: 40px;
-	width: 240px;
-	padding: 20px;
-	position: absolute;
-	text-shadow: 0 1px 0 #fff;
-	top: 40px;
-	left: 30px;
-	opacity: 1;
-	z-index: 1;
 }
 
 #containerbox {
@@ -124,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px;
 	text-shadow: 0 1px 0 #fff;
 	opacity: 0.8;
-	margin: -175px 0 0 -190px;
+	margin: -155px 0 0 -215px;
 	z-index: 1;
 	position: absolute;
 	top: 50%;
@@ -148,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 410px;
 	width: 660px;
 	padding: 20px;
+	overflow-y: scroll;
 	position: absolute;
 	opacity: 0.8;
 	top: 50%;
@@ -175,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	position: absolute;
 	top: 5%;
-	left: 5%;
+	left: 2%;
 	opacity: 1;
 }
 
@@ -201,9 +173,111 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 3em;
 	letter-spacing: 2px;
 	margin-left: 20px;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 
+#archivebox {
+	-moz-border-radius: 15px;
+	moz-box-shadow: 5px 5px 5px #87CEEB;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	background-color: #ffa500;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #5F9EA0;
+	color: #5F9EA0;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 2em;
+	text-align: left;
+	height: 410px;
+	width: 660px;
+	padding: 20px;
+	position: absolute;
+	overflow-y: scroll;
+	opacity: 0.8;
+	top: 50%;
+	left: 50%;
+	margin: -225px 0 0 -330px;
+	z-index: 1;
+}
+
+#homebox-archive {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color: #000;
+	border-radius: 15px;
+	color: #fff;
+	font-family: "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 0px;
+	font-weight: 800;
+	height: 50px;
+	width: 200px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	left: 2%;
+	opacity: 1;
+}
+
+/* have to fix this to make it work #homebox-contact a:hover {
+	border-style: inset;
+} */
+/* Need to get small little picture up in top left corner */
+
+/* Want to change color of hover link and original color of link
+.blogpost {
+}
+
+.blogpost a:link, a:visited, a:active {
+	color: #fff;
+	text-decoration: none;
+	font-weight: #5F9EA0;
+}
+
+.blogpost a:hover {
+	color: #00BFFF;
+}
+
+*/
+
+/* Have to fix placement of home */
+#homebox-archive h2 {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#archivebox p {
+	margin-left: 20px;
+	margin-top: 20px;
+	line-height: 1em;
+	font-weight: 900;
+	color: #fff;
+}
+
+#archivebox h2 {
+	margin-left: 20px;
+	margin-top: 20px;
+	line-height: 1em;
+	font-weight: 900;
+	color: #5F9EA0;
+}
+
+#archivebox h1 {
+	color: #5F9EA0;
+	font-size: 3em;
+	letter-spacing: 2px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/* Have to make it work so it resizes to the size of the text using jquery, not overflow */
+/* want to have a way of doing tab other than suing &nbsp &nbsp &nbsp &nbsp &nbsp */
 #blogbox {
 	-moz-border-radius: 15px;
 	moz-box-shadow: 5px 5px 5px #87CEEB;
@@ -212,20 +286,208 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #ffa500;
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px #5F9EA0;
-	color: #222;
+	color: #fff;
 	font-size: 1em;
-	line-height: 3em;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
 	height: 1010px;
 	width: 660px;
 	/* figure out padding */
 	padding: 20px;
-	padding-right: 20px;
-	padding-left: 20px ;
 	position: relative;
 	text-shadow: 0 1px 0 #fff;
 	opacity: 0.8;
+	overflow-y: scroll;
 	top: 65px;
 	left: 390px;
+	z-index: 1;
+}
+
+/* Really want to make it so that the box changes to inset when hovered over */
+#homebox-blog {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color: #000;
+	border-radius: 15px;
+	color: #fff;
+	font-family: "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 0px;
+	font-weight: 800;
+	height: 50px;
+	width: 200px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	left: 2%;
+	opacity: 1;
+	z-index: 1;
+}
+
+#homebox-blog h2 {
+	margin-top: 25px;
+}
+
+#previousbox-blog {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color: #000;
+	border-radius: 15px;
+	color: #fff;
+	font-family: "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 0px;
+	font-weight: 800;
+	height: 50px;
+	width: 200px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	opacity: 1;
+	z-index: 1;
+}
+
+#previousbox-blog h2 {
+	margin: 25px;
+}
+
+#nextbox-blog {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color: #000;
+	border-radius: 15px;
+	color: #fff;
+	font-family: "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 0px;
+	font-weight: 800;
+	height: 50px;
+	width: 200px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left: 67%%;
+	opacity: 1;
+	z-index: 1;
+}
+
+#nextbox-blog h2 {
+	margin-top: 25px;
+}
+
+#archivebox-blog {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color: #000;
+	border-radius: 15px;
+	color: #fff;
+	font-family: "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 0px;
+	font-weight: 800;
+	height: 50px;
+	width: 50px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left: 46%;
+	opacity: 1;
+	z-index: 1;
+}
+
+#archivebox-blog h2 {
+	margin-top: 25px;
+}
+
+.blog-title {
+	margin-top: 40px;
+	margin-left: 20px;
+	line-height: 1em;
+	font-weight: 900;
+	font-size: 3em;
+	margin-left: 20px;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+
+}
+
+.blog-date {
+	font-weight: 900;
+	font-size: 2em;
+	margin-left: 20px;
+	margin-top: 30px;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.blog-text {
+	line-height: 2em;
+	font-weight: 900;
+	font-size: 1em;
+	margin-left: 20px;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+#cc-contact {
+	position: absolute;
+	left: 285px;
+	top: 35px;
+}
+
+.cc-archive-blog {
+	position: absolute;
+	left: 540px;
+	top: 25px;
+}
+
+.share-buttons {
+	position: absolute;
+	left: 250px;
+	top: 25px;
+}
+
+/* Not working, content still flows into header */
+.header {
+	position: relative;
+	height: 100px;
+	width: 660px;
+	background-color: #ffa500;
+	z-index: 1;
+}
+
+
+.content {
+
+}
+
+.footer {
+	position: relative;
+	margin-top: 70px;
+	height: 100px;
+	width: 660px;
+	background-color: #ffa500;
 	z-index: 1;
 }
 
@@ -234,24 +496,5 @@ h1, h2, h3, h4, h5, h6 {
 	width: 690px;
 	margin: 50px auto;
 	position: relative;
-}
-
-.datestyle {
-	position: absolute;
-	top: 230px;
-	left: 40px;
-	color: #fff;
-	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	font-weight: 800;
-}
-
-.blogstyle {
-	position: absolute;
-	top: 340px;
-	left: 40px;
-	color: #fff;
-	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
-	font-size: 1em;
 	font-weight: 800;
 }
