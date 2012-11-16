@@ -1,5 +1,6 @@
 /* Main CSS Page */
 /* Get Favicon Working and make a white background plus black text for blog */
+/* have to ask kirk about creating that CNAME file, also got to use import for this css page */
 
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 
@@ -104,12 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #contactbox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 5px 5px 5px #87CEEB;
+	moz-box-shadow: 10px 10px 10px #666;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	-webkit-box-shadow: 10px 10px 10px #666;
 	background-color: #ffa500;
 	border-radius: 15px;
-	box-shadow: 5px 5px 5px #5F9EA0;
+	box-shadow: 10px 10px 10px #666;
 	color: #5F9EA0;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
@@ -121,7 +122,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px;
 	overflow-y: scroll;
 	position: absolute;
-	opacity: 0.8;
+	opacity: 0.9;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #000;
 	top: 50%;
 	left: 50%;
 	margin: -225px 0 0 -330px;
@@ -165,11 +169,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	line-height: 3em;
 	font-weight: 900;
-	color: #5F9EA0;
+	color: #003F87;
 }
 
 #contactbox h1 {
-	color: #5F9EA0;
+	color: #003F87;
 	font-size: 3em;
 	letter-spacing: 2px;
 	margin-left: 20px;
@@ -178,28 +182,29 @@ h1, h2, h3, h4, h5, h6 {
 
 #archivebox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 5px 5px 5px #87CEEB;
+	box-shadow: 10px 10px 10px #666;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	box-shadow: 10px 10px 10px #666;
 	background-color: #ffa500;
 	border-radius: 15px;
-	box-shadow: 5px 5px 5px #5F9EA0;
-	color: #5F9EA0;
+	box-shadow: 10px 10px 10px #666;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 	font-size: 1em;
 	line-height: 2em;
 	text-align: left;
-	height: 410px;
 	width: 660px;
 	padding: 20px;
-	position: absolute;
-	overflow-y: scroll;
+	position: relative;
+	/* overflow-y: scroll; Not needed as it's relative now */
 	opacity: 0.8;
 	top: 50%;
 	left: 50%;
-	margin: -225px 0 0 -330px;
+	margin: 8% 0 0 -330px;
 	z-index: 1;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #000;
 }
 
 #homebox-archive {
@@ -248,8 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Have to fix placement of home */
 #homebox-archive h2 {
-	margin-right: 20px;
-	margin-bottom: 10px;
+	margin-top: 25px;
 }
 
 #archivebox p {
@@ -260,16 +264,24 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
-#archivebox h2 {
+#archivebox h3 {
 	margin-left: 20px;
 	margin-top: 20px;
 	line-height: 1em;
 	font-weight: 900;
-	color: #5F9EA0;
+	color: #003F87;
+}
+
+#archivebox h3 a:link, a:visited, a:active {
+	color: #003F87;
+}
+
+#homebox-archive h2 a:link, a:visited, a:active {
+	color: #fff;
 }
 
 #archivebox h1 {
-	color: #5F9EA0;
+	color: #003F87;
 	font-size: 3em;
 	letter-spacing: 2px;
 	margin-left: 20px;
@@ -278,29 +290,53 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Have to make it work so it resizes to the size of the text using jquery, not overflow */
 /* want to have a way of doing tab other than suing &nbsp &nbsp &nbsp &nbsp &nbsp */
+#blogbox-text {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background-color: #fff;
+	border-radius: 15px;
+	color: #000;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #000;
+	font-size: 1em;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
+	width: 600px;
+	/* figure out padding */
+	padding: 20px;
+	left: 10px;
+	position: relative;
+	opacity: 1;
+	z-index: -1;
+}
+
 #blogbox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 5px 5px 5px #87CEEB;
+	moz-box-shadow: 10px 10px 10px #666;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 5px 5px 5px #87CEEB;
+	-webkit-box-shadow: 10px 10px 10px #666;
 	background-color: #ffa500;
 	border-radius: 15px;
-	box-shadow: 5px 5px 5px #5F9EA0;
+	box-shadow: 10px 10px 10px #666;
 	color: #fff;
 	font-size: 1em;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
 	text-align: left;
-	height: 1010px;
 	width: 660px;
 	/* figure out padding */
-	padding: 20px;
+	padding: 30px;
 	position: relative;
 	text-shadow: 0 1px 0 #fff;
 	opacity: 0.8;
 	overflow-y: scroll;
 	top: 65px;
 	left: 390px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #000;
 	z-index: 1;
 }
 
@@ -426,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 20px;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #000;
 
 }
 
@@ -437,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 30px;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #000;
 }
 
 .blog-text {
@@ -447,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 20px;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #000;
 }
 
 #cc-contact {
@@ -484,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
 	position: relative;
-	margin-top: 70px;
+	margin-top: 35px;
 	height: 100px;
 	width: 660px;
 	background-color: #ffa500;
