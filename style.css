@@ -1,6 +1,7 @@
 /* Main CSS Page */
 /* Get Favicon Working and make a white background plus black text for blog */
 /* have to ask kirk about creating that CNAME file, also got to use import for this css page */
+/* add a comment section */
 
 @import url(http://fonts.googleapis.com/css?family=Galdeano);
 
@@ -510,6 +511,32 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100px;
 	width: 660px;
 	background-color: #ffa500;
+	z-index: 1;
+}
+
+/* Not being used atm *?
+.commentbox {
+	-moz-border-radius: 15px;
+	moz-box-shadow: 10px 10px 10px #666;
+	-webkit-border-radius: 15px;
+	-webkit-box-shadow: 10px 10px 10px #666;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #666;
+	color: #000;
+	font-size: 1em;
+	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
+	/* figure out padding */
+	padding: 30px;
+	position: relative;
+	text-shadow: 0 1px 0 #fff;
+	margin-top: 20px;
+	opacity: 0.9;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #000;
 	z-index: 1;
 }
 
