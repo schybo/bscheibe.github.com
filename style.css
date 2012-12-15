@@ -273,11 +273,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #003F87;
 }
 
-#archivebox h3 a:link, a:visited, a:active {
+#archivebox h3 a:link {
 	color: #003F87;
 }
 
-#archivebox h3 a:visited, a:active {
+#archivebox h3 a:visited {
 	color: #003F87;
 }
 
