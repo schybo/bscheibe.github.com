@@ -83,12 +83,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #containerbox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 5px 5px 5px #87CEEB;
+	moz-box-shadow: 8px 8px 8px #4F4F4F;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 5px 5px 5px #87CEEB;
-	background-color: #ffa500;
+	-webkit-box-shadow: 8px 8px 8px #4F4F4F;
+	background-color: #C11B17;
 	border-radius: 15px;
-	box-shadow: 5px 5px 5px #5F9EA0;
+	box-shadow: 8px 8px 8px #4F4F4F;
 	color: #222;
 	font-size: 1em;
 	line-height: 3em;
@@ -106,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #contactbox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 10px 10px 10px #666;
+	moz-box-shadow: 10px 10px 10px #4F4F4F;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 10px 10px 10px #666;
-	background-color: #ffa500;
+	-webkit-box-shadow: 10px 10px 10px #4F4F4F;
+	background-color: #C11B17;
 	border-radius: 15px;
-	box-shadow: 10px 10px 10px #666;
+	box-shadow: 10px 10px 10px #4F4F4F;
 	color: #5F9EA0;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
@@ -183,12 +183,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #archivebox {
 	-moz-border-radius: 15px;
-	box-shadow: 10px 10px 10px #666;
+	box-shadow: 10px 10px 10px #4F4F4F;
 	-webkit-border-radius: 15px;
-	box-shadow: 10px 10px 10px #666;
-	background-color: #ffa500;
+	box-shadow: 10px 10px 10px #4F4F4F;
+	background-color: #C11B17;
 	border-radius: 15px;
-	box-shadow: 10px 10px 10px #666;
+	box-shadow: 10px 10px 10px #4F4F4F;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 	font-size: 1em;
@@ -323,12 +323,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #blogbox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 10px 10px 10px #666;
+	moz-box-shadow: 10px 10px 10px #4F4F4F;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 10px 10px 10px #666;
-	background-color: #ffa500;
+	-webkit-box-shadow: 10px 10px 10px #4F4F4F;
+	background-color: #C11B17;
 	border-radius: 15px;
-	box-shadow: 10px 10px 10px #666;
+	box-shadow: 10px 10px 10px #4F4F4F;
 	color: #fff;
 	font-size: 1em;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
@@ -518,19 +518,19 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	height: 100px;
 	width: 660px;
-	background-color: #ffa500;
+	background-color: #C11B17;
 	z-index: 1;
 }
 
 /* Not being used atm *?
 .commentbox {
 	-moz-border-radius: 15px;
-	moz-box-shadow: 10px 10px 10px #666;
+	moz-box-shadow: 10px 10px 10px #4F4F4F;
 	-webkit-border-radius: 15px;
-	-webkit-box-shadow: 10px 10px 10px #666;
+	-webkit-box-shadow: 10px 10px 10px #4F4F4F;
 	background-color: #fff;
 	border-radius: 15px;
-	box-shadow: 10px 10px 10px #666;
+	box-shadow: 10px 10px 10px #4F4F4F;
 	color: #000;
 	font-size: 1em;
 	font-family:  "Galdeano", "Avenir", "Glasgow", Helvetica, Arial, sans-serif;
@@ -558,7 +558,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 35px;
 	height: 100px;
 	width: 660px;
-	background-color: #ffa500;
+	background-color: #C11B17;
 	z-index: 1;
 }
 
