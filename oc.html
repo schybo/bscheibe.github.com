@@ -5,7 +5,14 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="shortcut icon" href="favicon.ico">
-		<script src="site.js"></script>
+		<script type="text/javascript">
+		function noPageAlert() {
+		var answer = confirm ("This page does not exist yet, we're sending you to the home page")
+		if (answer) {
+			window.location="http://www.schybo.com";
+		} 
+		}
+		</script>
 		<title>
 			Schybo.com
 		</title>
@@ -26,7 +33,7 @@
 				<h2> drawings </h2>
 			</div>
 			<div id="drawing-pic">
-				<a href="/">
+				<a href="javascript:noPageAlert();">
 					<img src="jungle.gif" alt="Jungle" width="204" height="200">
 				</a>
 			</div>
@@ -34,7 +41,7 @@
 				<h2> short stories </h2>
 			</div>
 			<div id="ss-pic">
-				<a href="/">
+				<a href="javascript:noPageAlert();">
 					<img src="ss1.gif" alt="Short Story" width="204" height="200">
 				</a>
 			</div>
