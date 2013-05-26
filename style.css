@@ -28,10 +28,6 @@ a:link, a:visited, a:active {
 	font-weight: 900;
 }
 
-a:hover {
-	color: #00BFFF;
-}
-
 /* Want all on one line */
 a:hover #homebox-archive {
 	border-style: inset;
@@ -71,6 +67,18 @@ a:hover #previousbox-blog {
 
 a:hover #nextbox-blog {
 	border-style: inset;
+}
+
+#blog:hover {
+	color: #00BFFF;
+}
+
+#archive:hover {
+	color: #00BFFF;
+}
+
+#contact:hover {
+	color: #00BFFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
