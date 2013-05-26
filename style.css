@@ -897,6 +897,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
 	position: relative;
 	margin-top: 54px;
+	width: 660px;
+	height: 100px;
 	background-color: #C11B17;
 	z-index: 1;
 }
