@@ -5,7 +5,14 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="shortcut icon" href="favicon.ico">
-		<script src="site.js"></script>
+		<script type="text/javascript">
+		function noNewChptr() {
+		var answer = confirm ("The new chapter is being written. Stay tuned. Would you like to go to the home page?")
+		if (answer) {
+			window.location="http://www.schybo.com";
+		} 
+		}
+		</script>
 		<title>
 			Schybo.com
 		</title>
@@ -35,8 +42,8 @@
 			</div>
 			<div class="content">
 				<div id="blogbox-text">
-					<h1 class="blog-title"> Reno 911 </h1>
-					<h3 class="blog-date"> Date: Tuesday December 18th </h3>
+					<h1 class="blog-title"> Archaic Symphony </h1>
+					<h3 class="blog-date"> Chapter 1 </h3>
 					<p class="blog-text">  </p>
 					<p class="blog-text"> When starting the site I drew inspiration from my brother's site, well maybe a little more than inspiration. I thought the design was sleek and sexy, and having his github source code folders was an added bonus. You may be thinking here, wait did you just copy your brother's design? I could have. He had the Creative Commons copyright up which allowed me to manipulate his design in any way I felt necessary. But I didn't. I never once copy pasted. I used his work as an outline of my own. I believe that everybody should do the same. </p>
 					<p class="blog-text"> When first starting a website it's a little daunting. You may have learned some HTML and CSS along the way but the best you might remember is how to print "Hello, World" up on your local browser. This is why I recommend that everybody who wants to create a site do the following. Find a site whose design matches the idea of what your site looks like and attempt to use their design as an outline for your own. If your lucky you may find a website that has a link to their source CSS. When I did this with my brother's site, for every one line I used as base material, I remembered another ten CSS elements that I used a few years ago. It jump-started my memory, and after a few lines of viewing my brother's code I no longer needed it. The same might go for you, and even if you don't know much HTML or CSS it's probably the best way to learn the language and syntax. On a side not I've written half a guide to getting your site up online, and should be released with a few days, so stay tuned. </p>
@@ -49,19 +56,14 @@
 			</div>
 			<!-- Should put these in a list -->
 			<div class="footer">
-				<a href="/blog4"> 
-					<div id="nextbox-blog">
-						<h2> Next &gt;&gt; </h2>
-					</div>
-				</a>
 				<a href="/archive">
 					<div id="archivebox-blog">
 						<h2> \|/ </h2>
 					</div>
 				</a>
-				<a href="/blog2">
-					<div id="previousbox-blog">
-						<h2>  &lt;&lt; Previous </h2>
+				<a href="javascript:noNewChptr();">
+					<div id="nextbox-blog">
+						<h2> Next &gt;&gt; </h2>
 					</div>
 				</a>
 			</div>
