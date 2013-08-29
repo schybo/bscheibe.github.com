@@ -1,0 +1,125 @@
+<!-- Orignal content page -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+		<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+		<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
+		<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".fancybox").fancybox();
+			});
+		</script>
+
+		<script type="text/javascript">
+		function noPageAlert() {
+		var answer = confirm ("This page does not exist yet, we're sending you to the home page")
+		if (answer) {
+			window.location="http://www.schybo.com";
+		} 
+		}
+		</script>
+		<title>
+			Schybo.com
+		</title>
+	</head>
+	<body>
+		<div id="album_box">
+			<div id="header_album">
+				<a href="/">
+					<div id="homebox-album">
+						<h2>&lt;&lt; Home</h2>
+					</div>
+				</a>
+			</div>
+			<div id="content_album">
+				<h1> artwork</h1>
+			</div>
+			<div id="gallery">
+				<table>
+					<tr>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/fish&orc.gif"> 
+					  		<img src="/thumbs/thmb_fish&orc.gif" alt="Fish/Orc"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/football.gif"> 
+					  		<img src="/thumbs/thmb_football.gif" alt="Football"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					  <td> 
+					  	<a class="fancybox" rel="group" href="/artwork/woodpath.gif"> 
+					  		<img src="/thumbs/thmb_woodpath.gif" alt="Wood Path"  width="125" height="150">
+					    </a> 
+					  </td>
+					</tr>
+					<tr>
+					  <td> 
+					  	<a class="fancybox" rel="group" href="/artwork/lionbeast.gif"> 
+					  		<img src="/thumbs/thmb_lionbeast.gif" alt="Lion/Beast"  width="125" height="150">
+					    </a> 
+					  </td>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/oliphaunt.gif"> 
+					  		<img src="/thumbs/thmb_oliphaunt.gif" alt="Oliphaunt"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/safari.gif"> 
+					  		<img src="/thumbs/thmb_safari.gif" alt="Safari"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/seige.gif"> 
+					  		<img src="/thumbs/thmb_seige.gif" alt="Siege"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/shading.gif"> 
+					  		<img src="/thumbs/thmb_shading.gif" alt="Shading"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					  <td>
+					  	<a class="fancybox" rel="group" href="/artwork/sirens.gif"> 
+					  		<img src="/thumbs/thmb_sirens.gif" alt="Sirens"  width="125" height="150"> 
+					  	</a> 
+					  </td>
+					</tr>
+				</table>					
+			</div>
+				<a href="/album0">
+			    	<div id="lessbox-album">
+							<h2>&lt;&lt; Back</h2>
+					</div>
+				</a>
+				<a href="/album2">
+			    	<div id="morebox-album">
+							<h2>&gt;&gt; More</h2>
+					</div>
+				</a>
+			</div> 
+		</div>
+	</body>
+</html> 
