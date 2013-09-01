@@ -7,6 +7,14 @@
 		<link rel="shortcut icon" href="favicon.ico">
 		<script type="text/javascript">
 		</script>
+		<script type="text/javascript">
+		function noNewStory() {
+		var answer = confirm ("This story is still being written. Would you like to go to the home page?")
+		if (answer) {
+			window.location="http://www.schybo.com";
+		} 
+		}
+		</script>
 		<title>
 			Schybo.com
 		</title>
@@ -26,10 +34,19 @@
 			<div id="ss1">
 				<h2> archaic symphony </h2>
 			</div>
+			<div id="ss2">
+				<h2> Don &amp his Dog </h2>
+			</div>
 			<div id="ss1_cover">
-				<a href="/ss_ch1">
+				<!-- <a href="/ss_ch1"> -->
+				<a href="javascript:noNewStory();">
+					<img src="/thumbs/thumb_volcano.gif" alt="AS_Cover" width="204" height="200">
+				</a>
+			</div>
+			<div id="ss2_cover">
+				<a href="/don_dog">
 				<!-- <a href="javascript:noPageAlert();"> -->
-					<img src="/thumbs/volcano.gif" alt="AS_Cover" width="204" height="200">
+					<img src="/oc_titles/don_dog.gif" alt="AS_Cover" width="204" height="200">
 				</a>
 			</div>
 			<!-- <div class="footer">

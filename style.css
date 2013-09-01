@@ -15,7 +15,7 @@ body {
   	background-attachment: fixed;
   	background-color: #222;
 	padding-bottom: 200px;
-	background-image: url(river_clean.gif);
+	background-image: url(background.png);
 	background-size: cover;
 	-moz-background-size: cover;
   	-webkit-background-size: cover;
@@ -110,7 +110,18 @@ h1, h2, h3, h4, h5, h6 {
 #ss1 {
 	position: absolute;
 	top: 145px;
-	left: 80px;
+	left: 60px;
+	color: #fff;
+	font-family:  "Galdeano","Avenir", "Glasgow", Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 1.5em;
+	text-shadow: 0 7px 0 #444;
+}
+
+#ss2 {
+	position: absolute;
+	top: 145px;
+	left: 385px;
 	color: #fff;
 	font-family:  "Galdeano","Avenir", "Glasgow", Helvetica, Arial, sans-serif;
 	letter-spacing: 1.5px;
@@ -887,6 +898,17 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 230px;
 	left: 105px;
+	/* border-style: groove;
+	border-color: #5E2612;
+	border-radius: 5px;
+	margin: 0px;
+	padding-bottom: 0px; */
+}
+
+#ss2_cover {
+	position: absolute;
+	top: 230px;
+	left: 400px;
 	/* border-style: groove;
 	border-color: #5E2612;
 	border-radius: 5px;
